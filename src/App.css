@@ -1,0 +1,64 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0;
+	color: #ffffff;
+}
+
+#quote-box {
+	background-color: #ffffff;
+	width: 600px;
+	padding: 24px;
+	min-height: 350px;
+	box-sizing: border-box;
+}
+
+#text {
+	font-size: 24px;
+	text-align: center;
+}
+
+#author {
+	font-size: 18px;
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	gap: 10px; /* Space between buttons */
+	margin-top: 20px;
+}
+
+.quote-button {
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	padding: 0 12px;
+	border: none;
+	color: #ffffff;
+	outline: none;
+}
+
+#new-quote {
+	background-color: #16a085;
+}
+
+#tweet-quote {
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+.quote-button:hover {
+	background-color: #ebeaea;
+	transform: scale(1.05);
+}
+
+.quote-button:active {
+	transform: scale(1.02);
+}

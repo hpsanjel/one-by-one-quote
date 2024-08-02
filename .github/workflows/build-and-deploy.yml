@@ -25,9 +25,11 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: hpsanjel/actions-gh-pages@v3
+        uses: hpsanjel/actions-main@v3
         with:
           github_token: ${{ secrets.GH_TOKEN_HARI }}
-          publish_dir: ./build
+          publish_dir: ./dist
+          user_name: 'hpsanjel'
+          user_email: 'yes.harisanjel@gmail.com'
 
 
